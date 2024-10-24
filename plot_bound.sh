@@ -1,0 +1,2 @@
+# cifar
+python src/plot_certification.py --model=resnet --dataset=cifar  --gpu=0 --plot_interval 2 --iid 1 --attack_type gaussian_noise --robust_conformal 1 --vec_dim 100 --epochs 100 --num_users 100 --frac 0.2 --local_bs 64
